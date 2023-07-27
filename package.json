@@ -22,15 +22,15 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "t https://eduart80.github.io/graphql",
+  "homepage": "t http://eduart80.github.io/graphql/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "all": "concurrently \"npm run dev\" \"npm start\"",
-    "server": "node server/index.js",
+    "server": "nodemon server/index.js",
     "dev": "nodemon server/index.js",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build npm run dev",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
