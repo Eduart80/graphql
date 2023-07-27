@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/t%20http://eduart80.github.io/graphql/static/css/main.c93edd88.css",
+    "main.js": "/t%20http://eduart80.github.io/graphql/static/js/main.9461566a.js",
+    "index.html": "/t%20http://eduart80.github.io/graphql/index.html",
+    "main.c93edd88.css.map": "/t%20http://eduart80.github.io/graphql/static/css/main.c93edd88.css.map",
+    "main.9461566a.js.map": "/t%20http://eduart80.github.io/graphql/static/js/main.9461566a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c93edd88.css",
+    "static/js/main.9461566a.js"
+  ]
+}
