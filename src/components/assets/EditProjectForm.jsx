@@ -51,6 +51,8 @@ export default function EditProjectForm({ project }) {
                 </div>
                 <div className='mb-3'>
                     <select id="status" className="form-select" onChange={(e) => setStatus(e.target.value)}>
+
+                        <option value="default">Select option</option>
                         <option value="new">Not Started</option>
                         <option value="progress">In Progress</option>
                         <option value="completed">Completed</option>
