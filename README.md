@@ -1,4 +1,4 @@
-# runing react and server from on json files
+# run react and server at the same time from json files
 
 dependencies
 npm i concurrently
