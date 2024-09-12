@@ -17,7 +17,7 @@ mongoose.connection.once('open', ()=>{
 
 app.use('/graphql', graphqlHTTP({
     schema,
-    graphiql:process.env.NODE_ENV === 'development'
+    graphiql:true//process.env.NODE_ENV === 'development'
 }))
 
 

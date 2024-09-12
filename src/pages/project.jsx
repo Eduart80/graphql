@@ -17,7 +17,7 @@ export default function ProjectPage() {
     <>
       {!loading && !error && (
         <div className='mx-auto w-75 card p-5'>
-          <Link to='/' className='btn btn-light btn-sm w-25 d-inline ms-auto'>
+          <Link to='/' className='btn btn-light btn-sm w-25 d-inline ms-auto' style={{borderColor: 'gray'}}>
             Back
           </Link>
 

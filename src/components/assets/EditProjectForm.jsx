@@ -32,6 +32,7 @@ export default function EditProjectForm({ project }) {
         updateProject(name, description, status)
     }
 
+
     return (
 
         <div className="modal-body">
